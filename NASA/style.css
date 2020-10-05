@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+    width: 850px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    background-image: url(./NASA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+container {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline: 20px;
+}
+
+article {
+    
+    width: 270px;
+    height: 374px;
+    background-color: rgb(224, 222, 222);
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+h1 {
+    font-family: Changa, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
